@@ -1,5 +1,8 @@
 # Container-based Precise due to `sudo: false`
 sudo: false
+arch:
+ - ppc64le
+ - amd64
 language: go
 go:
  - 1.x
